@@ -8,9 +8,9 @@ export const siteConfig = {
   phone: "091-787-8791",
   phoneRaw: "0917878791",
   social: {
-    facebook: "https://facebook.com/shocinema",
+    facebook: "https://www.facebook.com/shogv/",
     instagram: "https://instagram.com/shocinema",
-    messenger: "https://m.me/shocinema",
+    messenger: "https://www.facebook.com/messages/t/770729566132625",
     zalo: "https://zalo.me/0917878791",
   },
   openGraph: {
