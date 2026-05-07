@@ -13,7 +13,7 @@ import { cn } from "@/lib/utils";
 const navLinks = [
   { href: "/", label: "Trang chủ" },
   { href: "/rooms", label: "Phòng" },
-  { href: "/gallery", label: "Gallery" },
+  { href: "/gallery", label: "Hình ảnh" },
   { href: "/contact", label: "Liên hệ" },
 ];
 

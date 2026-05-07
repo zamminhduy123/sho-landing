@@ -12,10 +12,10 @@ export default function LocationSection() {
         <div className="grid md:grid-cols-2 gap-12 items-center">
           <div>
             <h2 className="text-3xl md:text-5xl font-bold mb-4">
-              SHO Cinema
+              Sho Hotel
               <br />
               <span className="text-primary text-2xl md:text-3xl">
-                LoveTech Gò Vấp
+                Lovetech Gò Vấp
               </span>
             </h2>
             <div className="space-y-6 mt-10">
@@ -57,7 +57,7 @@ export default function LocationSection() {
             <GoogleMap />
             <div className="absolute bottom-8 left-1/2 -translate-x-1/2 flex flex-col items-center pointer-events-none">
               <div className="bg-background/80 backdrop-blur-md px-4 py-2 rounded-full mt-4 border border-white/10 text-sm font-medium whitespace-nowrap">
-                SHO Cinema Gò Vấp
+                Sho Hotel – Lovetech
               </div>
             </div>
           </div>

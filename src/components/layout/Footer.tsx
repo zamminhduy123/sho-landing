@@ -101,9 +101,9 @@ export default function Footer() {
           </div>
         </div>
 
-        <div className="border-t border-white/5 pt-8 flex flex-col md:flex-row justify-between items-center gap-4 text-xs text-muted-foreground/60">
-          <p>© {new Date().getFullYear()} SHO Cinema. All rights reserved.</p>
-          <p>Designed with Love in HCM.</p>
+        <div className="border-t border-white/5 pt-8 flex flex-col md:flex-row justify-between items-center gap-4 text-xs text-muted-foreground/60 text-center md:text-left">
+          <p>© {new Date().getFullYear()} {siteConfig.name}. Nội dung demo có thể được thay thế.</p>
+          <p>Thiết kế tinh tế tại TP.HCM.</p>
         </div>
       </div>
     </footer>

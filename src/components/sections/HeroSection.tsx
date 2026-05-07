@@ -63,8 +63,8 @@ export default function HeroSection() {
             </h1>
 
             <p className="text-lg md:text-xl text-muted-foreground mb-10 max-w-2xl font-light leading-relaxed">
-              Không gian riêng tư để xem phim, chơi game, kara mini, ăn uống và
-              chill cùng nhau tại Gò Vấp.
+              Không gian riêng tư để xem phim, chơi game, karaoke mini và tận hưởng
+              những giây phút thư giãn tuyệt vời tại Gò Vấp.
             </p>
 
             <div className="flex flex-col sm:flex-row gap-4">

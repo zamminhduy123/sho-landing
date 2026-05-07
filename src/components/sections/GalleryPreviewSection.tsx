@@ -5,11 +5,11 @@ import { Button } from "@/components/ui/button";
 import { ChevronRight } from "lucide-react";
 
 const galleryGrid = [
-  { src: "/images/hero-bg.png", alt: "Cinema room", className: "col-span-2 row-span-2" },
-  { src: "/images/gallery-1.png", alt: "PS5 gaming" },
+  { src: "/images/hero-bg.png", alt: "Phòng Cinema", className: "col-span-2 row-span-2" },
+  { src: "/images/gallery-1.png", alt: "Phòng Game PS5" },
   { src: "/images/food-tray.png", alt: "Đồ ăn tại phòng" },
-  { src: "/images/gallery-2.png", alt: "Không gian chill" },
-  { src: "/images/gallery-3.png", alt: "Phòng gaming" },
+  { src: "/images/gallery-2.png", alt: "Không gian thư giãn" },
+  { src: "/images/gallery-3.png", alt: "Phòng PC Gaming" },
 ];
 
 export default function GalleryPreviewSection() {
@@ -20,7 +20,7 @@ export default function GalleryPreviewSection() {
           <h2 className="text-3xl md:text-5xl font-bold">
             Không gian
             <br />
-            tại <span className="text-accent">SHO</span>
+            tại <span className="text-accent">Sho Hotel</span>
           </h2>
           <Button
             variant="ghost"
