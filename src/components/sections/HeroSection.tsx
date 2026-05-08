@@ -44,7 +44,7 @@ export default function HeroSection() {
             initial={{ opacity: 0, y: 30 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.8 }}
-            className="max-w-3xl"
+            className="max-w-2xl"
           >
             <Badge
               variant="outline"
@@ -53,7 +53,7 @@ export default function HeroSection() {
               <Sparkles size={12} className="mr-2 inline" /> Gò Vấp, TP.HCM
             </Badge>
 
-            <h1 className="text-4xl md:text-6xl lg:text-7xl font-bold leading-[1.1] mb-6 bg-gradient-to-br from-white to-white/60 bg-clip-text text-transparent">
+            <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold leading-[1.15] mb-6 bg-gradient-to-br from-white to-white/60 bg-clip-text text-transparent">
               Phòng riêng xem phim, <br />
               <span className="bg-gradient-to-r from-primary to-accent bg-clip-text text-transparent drop-shadow-[0_0_30px_rgba(200,50,100,0.4)]">
                 PS5 &amp; PC Couple
@@ -62,7 +62,7 @@ export default function HeroSection() {
               cho mọi buổi hẹn
             </h1>
 
-            <p className="text-lg md:text-xl text-muted-foreground mb-10 max-w-2xl font-light leading-relaxed">
+            <p className="text-base md:text-lg text-muted-foreground mb-10 max-w-xl font-light leading-relaxed">
               Không gian riêng tư để xem phim, chơi game, karaoke mini và tận hưởng
               những giây phút thư giãn tuyệt vời tại Gò Vấp.
             </p>
@@ -93,7 +93,7 @@ export default function HeroSection() {
           </motion.div>
 
           {/* Hero Features - Desktop Only */}
-          <div className="hidden xl:flex flex-col gap-4 absolute right-12 top-1/2 -translate-y-1/2 z-30">
+          <div className="hidden xl:flex flex-col gap-4 absolute right-6  top-1/2 -translate-y-1/2 z-30">
             {heroFeatures.map((feature, i) => (
               <motion.div
                 key={i}
@@ -105,12 +105,12 @@ export default function HeroSection() {
                   ease: "easeOut",
                 }}
                 whileHover={{ scale: 1.05, x: -5 }}
-                className="flex items-center gap-4 bg-background/40 backdrop-blur-md border border-white/10 rounded-2xl p-4 min-w-[240px] shadow-[0_0_20px_rgba(0,0,0,0.3)] group transition-all hover:border-primary/50 hover:bg-background/60"
+                className="flex items-center gap-3 bg-background/40 backdrop-blur-md border border-white/10 rounded-2xl p-3.5 min-w-[180px] shadow-[0_0_20px_rgba(0,0,0,0.3)] group transition-all hover:border-primary/50 hover:bg-background/60"
               >
-                <div className="w-11 h-11 rounded-xl bg-primary/10 flex items-center justify-center text-primary group-hover:bg-primary group-hover:text-white transition-all shadow-[0_0_15px_rgba(200,50,100,0.1)]">
+                <div className="w-10 h-10 rounded-xl bg-primary/10 flex items-center justify-center text-primary group-hover:bg-primary group-hover:text-white transition-all shadow-[0_0_15px_rgba(200,50,100,0.1)]">
                   {feature.icon}
                 </div>
-                <span className="font-medium text-base text-white/90 group-hover:text-white transition-colors">
+                <span className="font-medium text-sm text-white/90 group-hover:text-white transition-colors">
                   {feature.label}
                 </span>
               </motion.div>

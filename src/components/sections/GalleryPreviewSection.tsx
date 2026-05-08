@@ -15,12 +15,10 @@ const galleryGrid = [
 export default function GalleryPreviewSection() {
   return (
     <section id="gallery" className="py-24 bg-card/20 border-y border-white/5">
-      <div className="container mx-auto px-4 md:px-6">
+      <div className="container mx-auto px-4 md:px-6 w-full">
         <div className="flex justify-between items-end mb-10">
-          <h2 className="text-3xl md:text-5xl font-bold">
-            Không gian
-            <br />
-            tại <span className="text-accent">Sho Hotel</span>
+          <h2 className="text-3xl md:text-5xl font-bold text-center sm:text-left px-12 sm:px-0">
+            Không gian tại <span className="text-accent">Sho Hotel</span>
           </h2>
           <Button
             variant="ghost"

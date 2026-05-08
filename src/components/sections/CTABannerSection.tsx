@@ -15,8 +15,8 @@ export default function CTABannerSection() {
       </div>
 
       <div className="container mx-auto px-4 md:px-6 relative z-10">
-        <div className="max-w-2xl">
-          <h2 className="text-4xl md:text-6xl font-bold mb-6 leading-tight">
+        <div className="max-w-2xl text-center sm:text-left">
+          <h2 className="text-3xl md:text-6xl font-bold mb-6 leading-tight">
             Sẵn sàng cho buổi hẹn
             <br />
             riêng tư tại{" "}

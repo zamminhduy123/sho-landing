@@ -14,7 +14,7 @@ export default function GalleryPage() {
   return (
     <>
       {/* Page Header */}
-      <section className="relative pt-32 pb-16 bg-background">
+      <section className="relative pt-32 pb-0 bg-background">
         <div className="absolute top-0 left-0 w-1/2 h-[400px] bg-accent/10 blur-[150px] rounded-full pointer-events-none" />
         <div className="container mx-auto px-4 md:px-6 relative z-10">
           <Badge

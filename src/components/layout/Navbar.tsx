@@ -102,23 +102,23 @@ export default function Navbar() {
             transition={{ duration: 0.2 }}
             className="fixed inset-0 z-40 bg-background/95 backdrop-blur-3xl pt-24 px-6 flex flex-col"
           >
-            {/* Logo */}
-            <Logo className="mb-8" taglineClassName="text-white/50" />
-            <nav className="flex flex-col gap-6 text-2xl font-medium">
-              {navLinks.map((link) => (
-                <Link
-                  key={link.href}
-                  href={link.href}
-                  className={cn(
-                    "border-b border-white/10 pb-4 hover:text-primary transition-colors",
-                    pathname === link.href ? "text-primary" : ""
-                  )}
-                >
-                  {link.label}
-                </Link>
-              ))}
-            </nav>
-            <div className="mt-auto mb-12">
+            <div className="flex-1 overflow-y-auto">
+              <nav className="flex flex-col gap-6 text-2xl font-medium mt-4">
+                {navLinks.map((link) => (
+                  <Link
+                    key={link.href}
+                    href={link.href}
+                    className={cn(
+                      "border-b border-white/10 pb-4 hover:text-primary transition-colors",
+                      pathname === link.href ? "text-primary" : ""
+                    )}
+                  >
+                    {link.label}
+                  </Link>
+                ))}
+              </nav>
+            </div>
+            <div className="mb-12">
               <Button
                 asChild
                 className="w-full bg-primary hover:bg-primary/90 text-lg py-6 rounded-full shadow-[0_0_20px_rgba(200,50,100,0.6)]"

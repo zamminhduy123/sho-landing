@@ -21,7 +21,7 @@ export default function RoomCardsSection({ preview = false }: RoomCardsSectionPr
 
       <div className="container mx-auto px-4 md:px-6">
         <div className="mb-12">
-          <h2 className="text-3xl md:text-5xl font-bold mb-4">
+          <h2 className="text-3xl md:text-5xl font-bold mb-4 text-center sm:text-left">
             Chọn phòng theo{" "}
             <span className="bg-gradient-to-r from-secondary to-primary bg-clip-text text-transparent">
               mood của bạn

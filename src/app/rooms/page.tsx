@@ -20,7 +20,7 @@ export default function RoomsPage() {
   return (
     <>
       {/* Page Header */}
-      <section className="relative pt-32 pb-16 bg-background">
+      <section className="relative pt-32 pb-0 bg-background">
         <div className="absolute top-0 right-0 w-1/2 h-[500px] bg-secondary/10 blur-[150px] rounded-full pointer-events-none" />
         <div className="container mx-auto px-4 md:px-6 relative z-10">
           <Badge
@@ -29,13 +29,13 @@ export default function RoomsPage() {
           >
             Phòng riêng tư
           </Badge>
-          <h1 className="text-4xl md:text-6xl font-bold mb-4">
+          <h1 className="text-4xl md:text-6xl font-bold mb-4 text-center sm:text-left">
             Chọn phòng theo{" "}
             <span className="bg-gradient-to-r from-secondary to-primary bg-clip-text text-transparent">
               mood của bạn
             </span>
           </h1>
-          <p className="text-muted-foreground text-lg max-w-2xl">
+          <p className="text-muted-foreground text-lg max-w-2xl text-center sm:text-left">
             5 loại phòng riêng tư độc đáo — từ cinema lãng mạn đến gaming sôi
             động. Tất cả đều kèm đồ ăn, nước uống và không gian 100% riêng tư.
           </p>
@@ -43,7 +43,7 @@ export default function RoomsPage() {
       </section>
 
       {/* Rooms Tabs */}
-      <section className="py-12 bg-background">
+      <section className="py-6 sm:py-12 bg-background">
         <div className="container mx-auto px-4 md:px-6">
           <Tabs defaultValue="all">
             <TabsList className="mb-10 bg-card/40 border border-white/10 p-1 rounded-full w-fit">
